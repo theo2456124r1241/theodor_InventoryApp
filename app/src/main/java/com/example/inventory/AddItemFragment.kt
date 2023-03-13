@@ -40,6 +40,7 @@ class AddItemFragment : Fragment() {
         InventoryViewModelFactory(
             (activity?.application as InventoryApplication).database
                 .itemDao()
+
         )
     }
 
